@@ -16,10 +16,10 @@ export function Hero() {
       />
       <div className="relative z-20 container px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-headline text-4xl font-bold tracking-tight text-gold sm:text-5xl lg:text-6xl">
+          <h1 className="font-headline text-5xl font-bold tracking-tight text-gold sm:text-6xl lg:text-7xl [text-shadow:0_4px_8px_rgba(0,0,0,0.4)]">
             Reduza 40% os custos da sua frota
           </h1>
-          <p className="mt-6 text-lg leading-8 text-neutral-100">
+          <p className="mt-6 text-xl leading-8 text-neutral-100 [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
             Manutenção preventiva especializada que evita paradas inesperadas e aumenta a vida útil dos seus veículos. Menos gastos, mais produtividade.
           </p>
           <div className="mt-10">
