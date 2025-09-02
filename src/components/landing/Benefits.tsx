@@ -45,7 +45,7 @@ export function Benefits() {
           {benefits.map((benefit, index) => (
             <Card 
               key={benefit.title} 
-              className={`text-center bg-card/80 backdrop-blur-sm transition-all hover:scale-105 hover:shadow-primary/20 hover:shadow-lg ${index === 4 ? 'lg:col-start-2' : ''}`}
+              className={`text-center bg-card/80 backdrop-blur-sm transition-all border border-primary/50 shadow-lg shadow-primary/20 hover:scale-105 hover:shadow-primary/40 ${index === 4 ? 'lg:col-start-2' : ''}`}
             >
               <CardHeader>
                 <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
