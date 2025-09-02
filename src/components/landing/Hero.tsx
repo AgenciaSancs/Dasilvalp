@@ -1,15 +1,15 @@
-import Image from "next/image";
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 
 export function Hero() {
   return (
-    <section className="relative w-full h-[85vh] flex items-center justify-center text-center">
-      <Image
-        src="https://picsum.photos/1920/1080"
-        alt="Mechanic working on a truck"
-        data-ai-hint="truck mechanic"
-        fill
-        className="object-cover object-center brightness-50"
+    <section className="relative w-full h-[85vh] flex items-center justify-center text-center overflow-hidden">
+      <video
+        src="/images/video/0902.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover object-center brightness-50 z-0"
       />
       <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
