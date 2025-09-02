@@ -1,4 +1,5 @@
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Header() {
@@ -7,7 +8,13 @@ export function Header() {
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold">FleetValue</span>
+            <Image 
+              src="https://i.postimg.cc/cHqMLcBN/Save-Clip-App-147611954-2800109730306002-6074718875957623198-n.jpg"
+              alt="FleetValue Logo"
+              width={140}
+              height={40}
+              className="object-contain"
+            />
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
