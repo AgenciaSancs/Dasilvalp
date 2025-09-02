@@ -9,7 +9,7 @@ export function Header() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Image 
-              src="/images/Logo simples circular esmaltaria preto (1).png"
+              src="/images/logodasil.png"
               alt="FleetValue Logo"
               width={140}
               height={40}
