@@ -1,34 +1,17 @@
-import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 import Image from "next/image";
 
 export function Hero() {
   console.log('[HeroSection]', 'Component rendered');
   return (
-    <section className="relative w-full h-[90vh] flex items-center justify-center text-center overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-10" />
+    <section className="relative w-full h-[70vh] overflow-hidden">
       <Image
         src="https://i.postimg.cc/cH609Q8P/Gemini-Generated-Image-ifwy1uifwy1uifwy.png"
         alt="Car being serviced in a garage"
         fill
-        className="object-cover z-0"
+        className="object-cover"
         data-ai-hint="mechanic workshop"
         priority
       />
-      <div className="relative z-20 container px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="font-headline text-5xl font-bold tracking-tight text-gold sm:text-6xl lg:text-7xl [text-shadow:0_4px_8px_rgba(0,0,0,0.4)]">
-            Reduza 40% os custos da sua frota
-          </h1>
-          <p className="mt-6 text-xl leading-8 text-neutral-100 [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
-            Manutenção preventiva especializada que evita paradas inesperadas e aumenta a vida útil dos seus veículos. Menos gastos, mais produtividade.
-          </p>
-          <div className="mt-10">
-            <WhatsAppButton size="lg">
-              SOLICITE SUA PROPOSTA PERSONALIZADA
-            </WhatsAppButton>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
