@@ -8,10 +8,11 @@ export function Hero() {
         src="https://i.postimg.cc/cH609Q8P/Gemini-Generated-Image-ifwy1uifwy1uifwy.png"
         alt="Car being serviced in a garage"
         fill
-        className="object-cover"
+        className="object-cover opacity-50"
         data-ai-hint="mechanic workshop"
         priority
       />
+      <div className="absolute inset-0 bg-black/50" />
     </section>
   );
 }
