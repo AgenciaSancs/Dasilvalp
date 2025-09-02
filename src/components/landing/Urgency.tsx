@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import { WhatsAppButton } from "./WhatsAppButton";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 const advantages = [
   "Reduce unexpected breakdowns.",
@@ -13,13 +14,12 @@ export function Urgency() {
   return (
     <section className="relative py-20 sm:py-28 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-10" />
-      <video
-        src="/images/video/0902.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover object-center z-0"
+      <Image
+        src="https://i.postimg.cc/fym4p5Wq/Gemini-Generated-Image-zfv8stzfv8stzfv8.png"
+        alt="Mechanic working on a car"
+        fill
+        className="object-cover object-center z-0"
+        data-ai-hint="mechanic car"
       />
       <div className="relative z-20 container">
         <Card className="bg-transparent border-none">
