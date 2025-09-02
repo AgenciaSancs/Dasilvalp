@@ -9,8 +9,8 @@ export function Header() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Image 
-              src="/images/logodasil.png"
-              alt="FleetValue Logo"
+              src="https://i.postimg.cc/9fvdxBDn/Logo-simples-circular-esmaltaria-preto-1.png"
+              alt="Da Silva Automotivo Logo"
               width={140}
               height={40}
               className="object-contain"
