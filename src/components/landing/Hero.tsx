@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative w-full h-[90vh] flex items-center justify-center text-center overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-10" />
       <video
-        src="/images/video/0902.mp4"
+        src="/videos/frota.mp4"
         autoPlay
         loop
         muted
