@@ -7,19 +7,34 @@ import { Testimonials } from "@/components/landing/Testimonials";
 import { Faq } from "@/components/landing/Faq";
 import { Urgency } from "@/components/landing/Urgency";
 import { Footer } from "@/components/landing/Footer";
+import { FadeInOnScroll } from "@/components/ui/fade-in";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
-        <Hero />
-        <HeroText />
-        <Benefits />
-        <Trust />
-        <Testimonials />
-        <Faq />
-        <Urgency />
+        <FadeInOnScroll>
+          <Hero />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <HeroText />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Benefits />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Trust />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Testimonials />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Faq />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Urgency />
+        </FadeInOnScroll>
       </main>
       <Footer />
     </div>
