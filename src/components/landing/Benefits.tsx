@@ -35,15 +35,18 @@ export function Benefits() {
       <div className="container">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-            💰 Benefícios que Fazem a Diferença
+             Benefícios que Fazem a Diferença
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Veja como nosso serviço de manutenção de frotas pode impulsionar seus resultados.
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-          {benefits.map((benefit) => (
-            <Card key={benefit.title} className="text-center bg-card/80 backdrop-blur-sm transition-all hover:scale-105 hover:shadow-primary/20 hover:shadow-lg">
+        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {benefits.map((benefit, index) => (
+            <Card 
+              key={benefit.title} 
+              className={`text-center bg-card/80 backdrop-blur-sm transition-all hover:scale-105 hover:shadow-primary/20 hover:shadow-lg ${index === 4 ? 'lg:col-start-2' : ''}`}
+            >
               <CardHeader>
                 <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
                   {benefit.icon}
