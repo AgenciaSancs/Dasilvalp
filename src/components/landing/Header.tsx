@@ -11,8 +11,8 @@ export function Header() {
             <Image 
               src="https://i.postimg.cc/9fvdxBDn/Logo-simples-circular-esmaltaria-preto-1.png"
               alt="Da Silva Automotivo Logo"
-              width={140}
-              height={40}
+              width={120}
+              height={34}
               className="object-contain"
             />
           </Link>
