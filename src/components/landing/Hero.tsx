@@ -6,13 +6,13 @@ export function Hero() {
   return (
     <section className="relative w-full h-[90vh] flex items-center justify-center text-center overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-10" />
-      <video
-        src="/videos/herovideo.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+      <Image
+        src="https://i.postimg.cc/cH609Q8P/Gemini-Generated-Image-ifwy1uifwy1uifwy.png"
+        alt="Car being serviced in a garage"
+        fill
+        className="object-cover z-0"
+        data-ai-hint="mechanic workshop"
+        priority
       />
       <div className="relative z-20 container px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
