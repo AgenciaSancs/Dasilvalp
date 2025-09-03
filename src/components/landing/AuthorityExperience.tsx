@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
+import { Separator } from '@/components/ui/separator';
 
 const authorityItems = [
   {
@@ -97,6 +98,7 @@ export function AuthorityExperience() {
             </div>
         </div>
       </div>
+      <Separator className="mt-20 sm:mt-28" />
     </section>
   );
 }
