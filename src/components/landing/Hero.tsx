@@ -16,10 +16,10 @@ export function Hero() {
           priority
         />
       </div>
-      {/* Mobile Banner - Using current as placeholder */}
+      {/* Mobile Banner */}
       <div className="block md:hidden w-full">
         <Image
-          src="https://i.postimg.cc/05J8FFCW/REDUZA-EM-40-SEUS-CUSTOS-2.png"
+          src="https://i.postimg.cc/pXYYbc0t/capa-cell-dasilva.png"
           alt="Promotional banner for fleet maintenance cost reduction - Mobile"
           width={750}
           height={1334}
