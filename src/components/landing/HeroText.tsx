@@ -10,7 +10,7 @@ export function HeroText() {
           </p>
           <div className="mt-10">
             <WhatsAppButton size="lg" className="text-base sm:text-lg">
-              SOLICITE SUA PROPOSTA PERSONALIZADA
+              Solicite sua proposta
             </WhatsAppButton>
           </div>
         </div>
