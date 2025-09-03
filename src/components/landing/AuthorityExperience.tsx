@@ -94,13 +94,22 @@ export function AuthorityExperience() {
                     <p className="text-base sm:text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
                   </CardContent>
                 </Card>
-                <div className="hidden md:flex justify-center mt-4">
+                <div className="hidden md:flex justify-center items-center mt-4 space-x-4">
                   <a href="https://www.waze.com/ul?ll=-22.75377750%2C-47.16688480&navigate=yes" target="_blank" rel="noopener noreferrer">
                     <Image 
                       src="https://i.postimg.cc/XNy68ds5/waze.png"
                       alt="Abrir no Waze"
-                      width={150}
-                      height={44}
+                      width={60}
+                      height={22}
+                      className="object-contain"
+                    />
+                  </a>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Av.+Paulista,+306+-+Jardim+Planalto,+Paul%C3%ADnia+-+SP,+13145-089" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                      src="https://i.postimg.cc/N01rm5Wv/maps.png"
+                      alt="Abrir no Google Maps"
+                      width={60}
+                      height={22}
                       className="object-contain"
                     />
                   </a>
