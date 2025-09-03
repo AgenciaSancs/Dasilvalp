@@ -20,7 +20,7 @@ const authorityItems = [
     title: 'Atendimento personalizado para cada empresa',
     description:
       'Entendemos que cada frota é única. Por isso, oferecemos um plano de manutenção totalmente personalizado, focado nas necessidades específicas do seu negócio para maximizar a eficiência e reduzir custos.',
-    imageUrl: 'https://picsum.photos/600/450',
+    imageUrl: 'https://i.postimg.cc/8Cb24WfR/imagem-2025-09-03-120951564.png',
     imageHint: 'business meeting',
   },
   {
