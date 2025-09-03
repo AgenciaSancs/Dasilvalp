@@ -3,18 +3,32 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const authorityItems = [
   {
-    title: 'Diagnóstico Preciso com Tecnologia de Ponta',
+    title: 'Oficina própria com equipamentos modernos',
     description:
-      'Utilizamos as ferramentas de diagnóstico mais avançadas do mercado para identificar rapidamente a causa raiz de qualquer problema. Isso nos permite realizar reparos precisos, economizando seu tempo e dinheiro, e garantindo que seus veículos voltem à estrada com segurança e eficiência.',
+      'Nossa oficina está equipada com as mais recentes tecnologias para diagnóstico e reparo, garantindo um serviço ágil e de alta precisão para todos os veículos da sua frota.',
     imageUrl: 'https://picsum.photos/600/400',
-    imageHint: 'diagnostic tools',
+    imageHint: 'modern workshop',
   },
   {
-    title: 'Equipe de Especialistas Certificados',
+    title: 'Técnicos certificados e especializados',
     description:
-      'Nossa equipe é formada por técnicos altamente qualificados e certificados, com anos de experiência em manutenção de frotas. Estamos em constante treinamento para nos mantermos atualizados com as últimas tecnologias e práticas do setor, garantindo um serviço de excelência.',
+      'Contamos com uma equipe de profissionais com vasta experiência e certificações nas principais montadoras, prontos para oferecer as melhores soluções em manutenção preventiva e corretiva.',
     imageUrl: 'https://picsum.photos/600/400',
     imageHint: 'certified mechanics',
+  },
+  {
+    title: 'Atendimento personalizado para cada empresa',
+    description:
+      'Entendemos que cada frota é única. Por isso, oferecemos um plano de manutenção totalmente personalizado, focado nas necessidades específicas do seu negócio para maximizar a eficiência e reduzir custos.',
+    imageUrl: 'https://picsum.photos/600/400',
+    imageHint: 'business meeting',
+  },
+  {
+    title: 'Localização estratégica em Paulínia',
+    description:
+      'Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.',
+    imageUrl: 'https://picsum.photos/600/400',
+    imageHint: 'city map',
   },
 ];
 
