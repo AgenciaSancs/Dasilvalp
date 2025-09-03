@@ -38,7 +38,7 @@ export function AuthorityExperience() {
     <section className="py-20 sm:py-28 bg-secondary">
       <div className="container">
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+          <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl uppercase">
             A <em className="not-italic text-primary">Da Silva Automotivo</em> é referência em manutenção automotiva em Paulínia há mais de uma década.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
