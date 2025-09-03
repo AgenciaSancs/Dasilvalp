@@ -21,7 +21,7 @@ const authorityItems = [
 export function AuthorityExperience() {
   console.log('[AuthorityExperience]', 'Component rendered');
   return (
-    <section className="py-20 sm:py-28 bg-background">
+    <section className="py-20 sm:py-28 bg-secondary">
       <div className="container">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
