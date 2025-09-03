@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 
 const authorityItems = [
   {
@@ -55,13 +55,13 @@ export function AuthorityExperience() {
                 <h3 className="font-headline text-2xl font-bold text-gold mb-4 md:text-3xl">
                   {item.title}
                 </h3>
-                <Card className="overflow-hidden bg-card shadow-md">
+                <Card className="overflow-hidden rounded-2xl shadow-md">
                     <Image
                       src={item.imageUrl}
                       alt={item.title}
                       width={600}
                       height={400}
-                      className="object-cover w-full h-auto rounded-t-2xl transition-transform duration-300 hover:scale-105"
+                      className="object-cover w-full h-auto transition-transform duration-300 hover:scale-105"
                       data-ai-hint={item.imageHint}
                     />
                 </Card>
