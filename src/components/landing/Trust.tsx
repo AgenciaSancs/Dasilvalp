@@ -16,9 +16,9 @@ export function Trust() {
           </div>
           <div className="flex flex-col items-center">
             <div className="font-headline text-6xl font-bold text-gold flex items-center">
-              <AnimatedNumber finalValue={100} />%
+              +<AnimatedNumber finalValue={1000} />
             </div>
-            <p className="mt-2 text-xl font-medium">Certified Technicians</p>
+            <p className="mt-2 text-xl font-medium">Clientes Satisfeitos</p>
             <p className="mt-1 text-muted-foreground max-w-md">
               Our team consists of highly skilled and certified professionals committed to quality.
             </p>
