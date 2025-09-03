@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Card } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 
 const authorityItems = [
   {
@@ -69,7 +69,11 @@ export function AuthorityExperience() {
                 </Card>
               </div>
               <div className="md:w-1/2">
-                <p className="text-lg text-neutral-100">{item.description}</p>
+                <Card className="bg-black/20 backdrop-filter backdrop-blur-sm border-primary/20 shadow-lg rounded-2xl">
+                  <CardContent className="p-6">
+                    <p className="text-lg text-neutral-100">{item.description}</p>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           ))}
@@ -85,7 +89,11 @@ export function AuthorityExperience() {
                 </Card>
               </div>
               <div className="md:w-1/2">
-                <p className="text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
+                <Card className="bg-black/20 backdrop-filter backdrop-blur-sm border-primary/20 shadow-lg rounded-2xl">
+                  <CardContent className="p-6">
+                    <p className="text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
+                  </CardContent>
+                </Card>
               </div>
             </div>
         </div>

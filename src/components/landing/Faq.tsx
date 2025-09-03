@@ -29,7 +29,7 @@ export function Faq() {
       <div className="container max-w-4xl mx-auto">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-            ❓ PERGUNTAS FREQUENTES
+             PERGUNTAS FREQUENTES
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Encontre respostas rápidas para perguntas comuns sobre nossos serviços.
