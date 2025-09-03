@@ -40,7 +40,7 @@ export function AuthorityExperience() {
       <div className="container relative">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl uppercase">
-            A <em className="not-italic text-primary">DA SILVA AUTOMOTIVO</em> É REFERÊNCIA EM MANUTENÇÃO AUTOMOTIVA EM PAULÍNIA HÁ MAIS DE UMA DÉCADA.
+            A <em className="not-italic text-primary">DA SILVA AUTOMOTIVO</em> É REFERÊNCIA EM MANUTENÇÃO AUTOMOTIVA EM PAULÍNIA.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Nossa equipe altamente qualificada possui expertise específica em gestão de frotas empresariais.
