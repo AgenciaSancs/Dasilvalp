@@ -32,7 +32,6 @@ export function AuthorityExperience() {
       className="relative py-20 sm:py-28"
       style={{
         backgroundImage: "url('https://i.postimg.cc/vBPmmhfT/Gemini-Generated-Image-1twygd1twygd1twy.png')",
-        backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
