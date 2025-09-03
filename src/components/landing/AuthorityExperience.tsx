@@ -13,7 +13,7 @@ const authorityItems = [
     title: 'Técnicos certificados e especializados',
     description:
       'Contamos com uma equipe de profissionais com vasta experiência e certificações nas principais montadoras, prontos para oferecer as melhores soluções em manutenção preventiva e corretiva.',
-    imageUrl: 'https://picsum.photos/600/450',
+    imageUrl: 'https://i.postimg.cc/cH609Q8P/Gemini-Generated-Image-ifwy1uifwy1uifwy.png',
     imageHint: 'certified mechanics',
   },
   {
