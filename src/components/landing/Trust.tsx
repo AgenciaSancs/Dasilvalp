@@ -7,7 +7,7 @@ export function Trust() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-16 text-center">
           <div className="flex flex-col items-center">
             <div className="font-headline text-6xl font-bold text-gold flex items-center">
-              <AnimatedNumber finalValue={10} />+
+              <AnimatedNumber finalValue={5} />+
             </div>
             <p className="mt-2 text-xl font-medium">Years of Experience</p>
             <p className="mt-1 text-muted-foreground max-w-md">
