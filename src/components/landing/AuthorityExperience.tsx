@@ -28,8 +28,16 @@ const authorityItems = [
 export function AuthorityExperience() {
   console.log('[AuthorityExperience]', 'Component rendered');
   return (
-    <section className="py-20 sm:py-28 bg-secondary">
-      <div className="container">
+    <section 
+      className="relative py-20 sm:py-28"
+      style={{
+        backgroundImage: "url('https://i.postimg.cc/RFdP86fw/Background-pneu.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <div className="absolute inset-0 bg-black/70" />
+      <div className="container relative">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl uppercase">
             A <em className="not-italic text-primary">DA SILVA AUTOMOTIVO</em> É REFERÊNCIA EM MANUTENÇÃO AUTOMOTIVA EM PAULÍNIA HÁ MAIS DE UMA DÉCADA.
@@ -61,7 +69,7 @@ export function AuthorityExperience() {
                 </Card>
               </div>
               <div className="md:w-1/2">
-                <p className="text-lg text-muted-foreground">{item.description}</p>
+                <p className="text-lg text-neutral-100">{item.description}</p>
               </div>
             </div>
           ))}
@@ -77,7 +85,7 @@ export function AuthorityExperience() {
                 </Card>
               </div>
               <div className="md:w-1/2">
-                <p className="text-lg text-muted-foreground">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
+                <p className="text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
               </div>
             </div>
         </div>
