@@ -99,8 +99,8 @@ export function AuthorityExperience() {
                     <Image 
                       src="https://i.postimg.cc/XNy68ds5/waze.png"
                       alt="Abrir no Waze"
-                      width={200}
-                      height={58}
+                      width={150}
+                      height={44}
                       className="object-contain"
                     />
                   </a>
