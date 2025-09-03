@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { TrendingDown, ShieldCheck, Wrench, ClipboardList, Users } from "lucide-react";
+import { TrendingDown, Clock, Wrench, ClipboardList, Users } from "lucide-react";
 
 const benefits = [
   {
@@ -8,7 +8,7 @@ const benefits = [
     description: "Manutenção preventiva evita reparos caros e otimiza o desempenho da sua frota.",
   },
   {
-    icon: <ShieldCheck className="w-10 h-10 text-primary" />,
+    icon: <Clock className="w-10 h-10 text-primary" />,
     title: "Menos tempo de frota parada",
     description: "Atendimento rápido e eficiente em oficina própria para minimizar o tempo inativo.",
   },
