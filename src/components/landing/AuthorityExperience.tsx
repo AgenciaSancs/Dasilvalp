@@ -28,7 +28,7 @@ export function AuthorityExperience() {
             A <em className="not-italic text-primary">Da Silva Automotivo</em> é referência em manutenção automotiva em Paulínia há mais de uma década.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Confie em quem entende do assunto para cuidar da sua frota.
+            Nossa equipe altamente qualificada possui expertise específica em gestão de frotas empresariais.
           </p>
         </div>
         <div className="space-y-16">
