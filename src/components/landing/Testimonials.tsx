@@ -7,8 +7,6 @@ const partnerLogos = [
   { src: 'https://i.postimg.cc/qBskpYN1/Logo-simples-circular-esmaltaria-preto-5.png', alt: 'Partner 2', hint: 'company logo', className: 'w-36 md:w-48' },
   { src: 'https://i.postimg.cc/d3cw2M0S/Logo-simples-circular-esmaltaria-preto-6.png', alt: 'Partner 3', hint: 'company logo', className: 'w-36 md:w-48' },
   { src: 'https://i.postimg.cc/KzKbTGD2/Logo-EMTHOS.png', alt: 'Partner 4', hint: 'company logo' },
-  { src: 'https://picsum.photos/150/80?grayscale&random=5', alt: 'Partner 5', hint: 'company logo' },
-  { src: 'https://picsum.photos/150/80?grayscale&random=6', alt: 'Partner 6', hint: 'company logo' },
 ];
 
 export function Testimonials() {
