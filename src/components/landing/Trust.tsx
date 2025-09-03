@@ -9,7 +9,7 @@ export function Trust() {
             <div className="font-headline text-6xl font-bold text-gold flex items-center">
               <AnimatedNumber finalValue={5} />+
             </div>
-            <p className="mt-2 text-xl font-medium">Years of Experience</p>
+            <p className="mt-2 text-xl font-medium">Anos de Experiência</p>
             <p className="mt-1 text-muted-foreground max-w-md">
               Serving the industry with dedication and unmatched expertise in vehicle maintenance.
             </p>
