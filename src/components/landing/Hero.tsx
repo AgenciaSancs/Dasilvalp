@@ -12,7 +12,6 @@ export function Hero() {
         data-ai-hint="promotional banner"
         priority
       />
-      <div className="absolute inset-0 bg-black/50" />
     </section>
   );
 }
