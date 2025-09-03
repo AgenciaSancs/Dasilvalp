@@ -94,6 +94,17 @@ export function AuthorityExperience() {
                     <p className="text-base sm:text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
                   </CardContent>
                 </Card>
+                <div className="hidden md:flex justify-center mt-4">
+                  <a href="https://www.waze.com/ul?ll=-22.75377750%2C-47.16688480&navigate=yes" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                      src="https://i.postimg.cc/XNy68ds5/waze.png"
+                      alt="Abrir no Waze"
+                      width={200}
+                      height={58}
+                      className="object-contain"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
         </div>
