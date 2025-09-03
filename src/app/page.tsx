@@ -9,6 +9,7 @@ import { Faq } from "@/components/landing/Faq";
 import { Urgency } from "@/components/landing/Urgency";
 import { Footer } from "@/components/landing/Footer";
 import { FadeInOnScroll } from "@/components/ui/fade-in";
+import { Partners } from "@/components/landing/Partners";
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Testimonials />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Partners />
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Faq />
