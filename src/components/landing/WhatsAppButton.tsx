@@ -10,7 +10,7 @@ export function WhatsAppButton({ children, ...props }: React.PropsWithChildren<B
     <Button asChild {...props}>
       <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
         <WhatsAppIcon className="mr-2 h-5 w-5" />
-        {children || "Contact on WhatsApp"}
+        {children || "Fale com um especialista"}
       </a>
     </Button>
   );
