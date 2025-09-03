@@ -23,13 +23,6 @@ const authorityItems = [
     imageUrl: 'https://i.postimg.cc/8Cb24WfR/imagem-2025-09-03-120951564.png',
     imageHint: 'business meeting',
   },
-  {
-    title: 'Localização estratégica em Paulínia',
-    description:
-      'Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.',
-    imageUrl: 'https://picsum.photos/600/450',
-    imageHint: 'city map',
-  },
 ];
 
 export function AuthorityExperience() {
@@ -72,6 +65,21 @@ export function AuthorityExperience() {
               </div>
             </div>
           ))}
+            <div
+              className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 even:md:flex-row-reverse"
+            >
+              <div className="md:w-1/2">
+                <h3 className="font-headline text-2xl font-bold text-gold mb-4 md:text-3xl">
+                  Localização estratégica em Paulínia
+                </h3>
+                <Card className="overflow-hidden rounded-2xl shadow-md">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3099.6292348691813!2d-47.1668848!3d-22.7537775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8950d2c44a30b%3A0xd71ec519160793d5!2sAv.%20Paulista%2C%20306%20-%20Jardim%20Planalto%2C%20Paul%C3%ADnia%20-%20SP%2C%2013145-089!5e1!3m2!1spt-BR!2sbr!4v1756916183409!5m2!1spt-BR!2sbr" width="100%" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </Card>
+              </div>
+              <div className="md:w-1/2">
+                <p className="text-lg text-muted-foreground">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
+              </div>
+            </div>
         </div>
       </div>
     </section>
