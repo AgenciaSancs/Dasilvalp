@@ -24,31 +24,31 @@ export function Urgency() {
       <div className="relative z-20 container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="text-neutral-100">
-                <h2 className="font-headline text-3xl font-bold tracking-tight text-gold sm:text-4xl">
+                <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gold">
                   🎯 POR QUE CONTRATAR AGORA?
                 </h2>
-                <p className="mt-4 text-lg">
+                <p className="mt-4 text-base sm:text-lg">
                   Cada dia de frota parada representa perda de faturamento. Com nossa manutenção preventiva, você:
                 </p>
                 <ul className="mt-6 space-y-4">
                     {advantages.map((advantage, index) => (
                     <li key={index} className="flex items-center">
                         <Check className="h-6 w-6 text-primary mr-3 shrink-0" />
-                        <span className="text-lg">{advantage}</span>
+                        <span className="text-base sm:text-lg">{advantage}</span>
                     </li>
                     ))}
                 </ul>
             </div>
-            <Card className="flex flex-col items-center justify-center text-center bg-card/80 p-8 rounded-lg shadow-lg">
+            <Card className="flex flex-col items-center justify-center text-center bg-card/80 p-6 sm:p-8 rounded-lg shadow-lg">
                 <CardContent className="p-0">
-                    <p className="text-xl font-bold text-primary uppercase">
+                    <p className="text-lg sm:text-xl font-bold text-primary uppercase">
                         Oferta Especial
                     </p>
-                    <p className="mt-2 text-lg text-foreground font-semibold">
+                    <p className="mt-2 text-base sm:text-lg text-foreground font-semibold">
                         Primeira avaliação técnica da sua frota GRATUITA!
                     </p>
                     <div className="mt-6">
-                        <WhatsAppButton size="lg">
+                        <WhatsAppButton size="lg" className="text-base sm:text-lg">
                           FALE COM UM CONSULTOR HOJE MESMO
                         </WhatsAppButton>
                     </div>

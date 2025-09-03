@@ -6,20 +6,20 @@ export function Trust() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-16 text-center">
           <div className="flex flex-col items-center">
-            <div className="font-headline text-6xl font-bold text-gold flex items-center">
+            <div className="font-headline text-5xl sm:text-6xl font-bold text-gold flex items-center">
               <AnimatedNumber finalValue={5} />+
             </div>
-            <p className="mt-2 text-xl font-medium">Anos de Experiência</p>
-            <p className="mt-1 text-muted-foreground max-w-md">
+            <p className="mt-2 text-lg sm:text-xl font-medium">Anos de Experiência</p>
+            <p className="mt-1 text-sm sm:text-base text-muted-foreground max-w-md">
               Servindo a indústria com dedicação e conhecimento incomparável em manutenção de veículos.
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="font-headline text-6xl font-bold text-gold flex items-center">
+            <div className="font-headline text-5xl sm:text-6xl font-bold text-gold flex items-center">
               +<AnimatedNumber finalValue={1000} />
             </div>
-            <p className="mt-2 text-xl font-medium">Clientes Satisfeitos</p>
-            <p className="mt-1 text-muted-foreground max-w-md">
+            <p className="mt-2 text-lg sm:text-xl font-medium">Clientes Satisfeitos</p>
+            <p className="mt-1 text-sm sm:text-base text-muted-foreground max-w-md">
               Nossa equipe é formada por profissionais altamente qualificados e certificados, comprometidos com a qualidade.
             </p>
           </div>

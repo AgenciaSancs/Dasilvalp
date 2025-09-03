@@ -37,22 +37,22 @@ export function Benefits() {
           <h2 className="font-headline text-3xl font-bold uppercase tracking-tight text-primary drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)] sm:text-4xl">
              Benefícios que Fazem a Diferença
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground">
             Veja como nosso serviço de manutenção de frotas pode impulsionar seus resultados.
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 sm:mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
             <Card 
               key={benefit.title} 
-              className={`text-center bg-card/80 backdrop-blur-sm transition-all border border-primary/50 shadow-lg shadow-primary/20 hover:scale-105 hover:shadow-primary/40 ${index === 4 ? 'lg:col-start-2' : ''}`}
+              className={`text-center bg-card/80 backdrop-blur-sm transition-all border border-primary/50 shadow-lg shadow-primary/20 hover:scale-105 hover:shadow-primary/40 ${index === 4 ? 'md:col-span-2 lg:col-span-1 lg:col-start-2' : ''}`}
             >
               <CardHeader>
-                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
+                <div className="mx-auto flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-primary/10">
                   {benefit.icon}
                 </div>
-                <CardTitle className="mt-4 font-headline text-xl">{benefit.title}</CardTitle>
-                <CardDescription className="mt-2 text-base text-muted-foreground">{benefit.description}</CardDescription>
+                <CardTitle className="mt-4 font-headline text-lg sm:text-xl">{benefit.title}</CardTitle>
+                <CardDescription className="mt-2 text-sm sm:text-base text-muted-foreground">{benefit.description}</CardDescription>
               </CardHeader>
             </Card>
           ))}

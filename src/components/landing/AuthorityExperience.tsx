@@ -38,11 +38,11 @@ export function AuthorityExperience() {
       <div className="absolute inset-0 bg-black/70" />
       <div className="h-px w-full bg-gradient-to-r from-transparent via-primary to-transparent absolute top-0" />
       <div className="container relative">
-        <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl uppercase">
+        <div className="text-center max-w-4xl mx-auto mb-12 sm:mb-16">
+          <h2 className="font-headline text-2xl sm:text-3xl font-bold tracking-tight text-foreground md:text-4xl uppercase">
             A <em className="not-italic text-primary">DA SILVA AUTOMOTIVO</em> É REFERÊNCIA EM MANUTENÇÃO AUTOMOTIVA EM PAULÍNIA.
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground">
             Nossa equipe altamente qualificada possui expertise específica em gestão de frotas empresariais.
           </p>
         </div>
@@ -71,7 +71,7 @@ export function AuthorityExperience() {
               <div className="md:w-1/2">
                 <Card className="bg-black/20 backdrop-filter backdrop-blur-sm border-primary/20 shadow-lg rounded-2xl">
                   <CardContent className="p-6">
-                    <p className="text-lg text-neutral-100">{item.description}</p>
+                    <p className="text-base sm:text-lg text-neutral-100">{item.description}</p>
                   </CardContent>
                 </Card>
               </div>
@@ -85,13 +85,13 @@ export function AuthorityExperience() {
                   LOCALIZAÇÃO ESTRATÉGICA EM PAULÍNIA
                 </h3>
                 <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 border-2 border-primary transition-all duration-300">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3099.6292348691813!2d-47.1668848!3d-22.7537775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8950d2c44a30b%3A0xd71ec519160793d5!2sAv.%20Paulista%2C%20306%20-%20Jardim%20Planalto%2C%20Paul%C3%ADnia%20-%20SP%2C%2013145-089!5e1!3m2!1spt-BR!2sbr!4v1756916183409!5m2!1spt-BR!2sbr" width="100%" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3099.6292348691813!2d-47.1668848!3d-22.7537775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8950d2c44a30b%3A0xd71ec519160793d5!2sAv.%20Paulista%2C%20306%20-%20Jardim%20Planalto%2C%20Paul%C3%ADnia%20-%20SP%2C%2013145-089!5e1!3m2!1spt-BR!2sbr!4v1756916183409!5m2!1spt-BR!2sbr" width="100%" height="350" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </Card>
               </div>
               <div className="md:w-1/2">
                 <Card className="bg-black/20 backdrop-filter backdrop-blur-sm border-primary/20 shadow-lg rounded-2xl">
                   <CardContent className="p-6">
-                    <p className="text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
+                    <p className="text-base sm:text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
                   </CardContent>
                 </Card>
               </div>

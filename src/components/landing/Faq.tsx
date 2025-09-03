@@ -28,18 +28,18 @@ export function Faq() {
     <section className="py-20 sm:py-28 bg-card">
       <div className="container max-w-4xl mx-auto">
         <div className="text-center">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-             PERGUNTAS FREQUENTES
+          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl uppercase">
+             Perguntas Frequentes
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground">
             Encontre respostas rápidas para perguntas comuns sobre nossos serviços.
           </p>
         </div>
         <Accordion type="single" collapsible className="w-full mt-12">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-lg font-medium text-left">{faq.question}</AccordionTrigger>
-              <AccordionContent className="text-base text-muted-foreground">
+              <AccordionTrigger className="text-base sm:text-lg font-medium text-left">{faq.question}</AccordionTrigger>
+              <AccordionContent className="text-sm sm:text-base text-muted-foreground">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>

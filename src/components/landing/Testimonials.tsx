@@ -19,7 +19,7 @@ export function Testimonials() {
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl uppercase text-primary">
             Clientes e Parceiros
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground">
             Aqui esta algumas das empresas que confiam na <strong>DA SILVA</strong> para a gestão e manutenção de suas frotas.
           </p>
         </div>
