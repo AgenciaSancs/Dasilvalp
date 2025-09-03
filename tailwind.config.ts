@@ -18,7 +18,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['Futura', 'sans-serif'],
-        headline: ['Space Grotesk', 'sans-serif'],
+        headline: ['Oswald', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
