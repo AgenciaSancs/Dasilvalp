@@ -2,6 +2,7 @@ import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { HeroText } from "@/components/landing/HeroText";
 import { Benefits } from "@/components/landing/Benefits";
+import { AuthorityExperience } from "@/components/landing/AuthorityExperience";
 import { Trust } from "@/components/landing/Trust";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { Faq } from "@/components/landing/Faq";
@@ -22,6 +23,9 @@ export default function Home() {
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Benefits />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <AuthorityExperience />
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Trust />
