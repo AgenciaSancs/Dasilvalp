@@ -29,7 +29,7 @@ export function AuthorityExperience() {
   console.log('[AuthorityExperience]', 'Component rendered');
   return (
     <section 
-      className="relative py-20 sm:py-28"
+      className="relative pt-20 sm:pt-28 pb-16 sm:pb-24"
       style={{
         backgroundImage: "url('https://i.postimg.cc/vBPmmhfT/Gemini-Generated-Image-1twygd1twygd1twy.png')",
         backgroundPosition: 'center',
@@ -97,7 +97,6 @@ export function AuthorityExperience() {
             </div>
         </div>
       </div>
-      <div className="mt-20 sm:mt-28 h-px w-full bg-gradient-to-r from-transparent via-primary to-transparent" />
     </section>
   );
 }

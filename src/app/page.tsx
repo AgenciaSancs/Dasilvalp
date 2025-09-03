@@ -27,6 +27,7 @@ export default function Home() {
         <FadeInOnScroll>
           <AuthorityExperience />
         </FadeInOnScroll>
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-primary to-transparent" />
         <FadeInOnScroll>
           <Trust />
         </FadeInOnScroll>
