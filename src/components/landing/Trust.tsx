@@ -2,7 +2,7 @@ import { AnimatedNumber } from "@/components/ui/animated-number";
 
 export function Trust() {
   return (
-    <section className="pt-20 sm:pt-28 pb-20 sm:pb-28 bg-card">
+    <section className="pt-20 sm:pt-28 pb-20 sm:pb-28 bg-card relative">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-16 text-center">
           <div className="flex flex-col items-center">
@@ -25,6 +25,7 @@ export function Trust() {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-0 h-px w-full bg-gradient-to-r from-transparent via-primary to-transparent" />
     </section>
   );
 }
