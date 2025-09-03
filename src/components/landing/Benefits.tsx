@@ -1,9 +1,9 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { TrendingUp, ShieldCheck, Wrench, ClipboardList, Users } from "lucide-react";
+import { TrendingDown, ShieldCheck, Wrench, ClipboardList, Users } from "lucide-react";
 
 const benefits = [
   {
-    icon: <TrendingUp className="w-10 h-10 text-primary" />,
+    icon: <TrendingDown className="w-10 h-10 text-primary" />,
     title: "Redução de até 40% nos custos",
     description: "Manutenção preventiva evita reparos caros e otimiza o desempenho da sua frota.",
   },
