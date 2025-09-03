@@ -1,8 +1,17 @@
+
+'use client';
+import React from 'react';
 import Image from 'next/image';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from '@/components/ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
 
 const partnerLogos = [
-  { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo', name: 'Aki tem' },
-  { src: 'https://i.postimg.cc/qBskpYN1/Logo-simples-circular-esmaltaria-preto-5.png', alt: 'Partner 2', hint: 'company logo', className: 'transform scale-125', nameJsx: <p className="mt-2 text-sm font-bold"><span className="text-blue-500">TP</span> <span className="text-primary">CONS</span></p> },
+  { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo' },
+  { src: 'https://i.postimg.cc/qBskpYN1/Logo-simples-circular-esmaltaria-preto-5.png', alt: 'Partner 2', hint: 'company logo', className: 'transform scale-125' },
   { src: 'https://i.postimg.cc/d3cw2M0S/Logo-simples-circular-esmaltaria-preto-6.png', alt: 'Partner 3', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=4', alt: 'Partner 4', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=5', alt: 'Partner 5', hint: 'company logo' },
@@ -10,6 +19,10 @@ const partnerLogos = [
 ];
 
 export function Testimonials() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true })
+  );
+
   return (
     <section className="py-20 sm:py-28 bg-background">
       <div className="container">
@@ -21,21 +34,37 @@ export function Testimonials() {
             Aqui esta algumas das empresas que confiam na <strong>DA SILVA</strong> para a gestão e manutenção de suas frotas.
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-center">
-          {partnerLogos.map((logo) => (
-            <div key={logo.alt} className="flex flex-col items-center justify-center text-center">
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={150}
-                height={80}
-                className={`object-contain ${logo.className || ''}`}
-                data-ai-hint={logo.hint}
-              />
-              {logo.name && <p className="mt-2 text-sm font-bold text-gold">{logo.name}</p>}
-              {logo.nameJsx}
-            </div>
-          ))}
+        <div className="mt-16">
+          <Carousel
+            plugins={[plugin.current]}
+            className="w-full"
+            opts={{
+              align: 'start',
+              loop: true,
+            }}
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
+          >
+            <CarouselContent className="-ml-4">
+              {partnerLogos.map((logo, index) => (
+                <CarouselItem
+                  key={index}
+                  className="pl-4 basis-1/2 md:basis-1/3 lg:basis-1/6"
+                >
+                  <div className="flex items-center justify-center p-6">
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt}
+                      width={150}
+                      height={80}
+                      className={`object-contain ${logo.className || ''}`}
+                      data-ai-hint={logo.hint}
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
         </div>
       </div>
     </section>
