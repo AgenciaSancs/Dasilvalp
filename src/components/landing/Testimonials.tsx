@@ -3,19 +3,19 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const testimonials = [
   {
-    quote: "FleetValue transformed our fleet maintenance. We've saved over 20% on our annual costs and our vehicle uptime has never been better. Truly a game-changer.",
-    name: "John Doe",
-    company: "XYZ Logistics",
-    avatar: "JD",
+    quote: "A FleetValue transformou a manutenção da nossa frota. Economizamos mais de 20% nos custos anuais e a disponibilidade dos nossos veículos nunca esteve tão alta. Foi um divisor de águas.",
+    name: "Marcos Andrade",
+    company: "Andrade Log",
+    avatar: "MA",
   },
   {
-    quote: "The professionalism and expertise of the technicians at Da Silva Automotivo are top-notch. Their detailed reports help us make smarter decisions.",
-    name: "Jane Smith",
-    company: "Fast-Track Couriers",
-    avatar: "JS",
+    quote: "O profissionalismo e a expertise dos técnicos da Da Silva Automotivo são incomparáveis. Os relatórios detalhados nos ajudam a tomar decisões mais inteligentes e a otimizar a operação.",
+    name: "Juliana Costa",
+    company: "JCS Transportes",
+    avatar: "JC",
   },
   {
-    quote: "Switching to FleetValue was the best decision for our company. The service is reliable, efficient, and they always go the extra mile to ensure our fleet is in perfect condition.",
+    quote: "Mudar para a FleetValue foi a melhor decisão para nossa empresa. O serviço é confiável, eficiente e eles sempre se superam para garantir que nossa frota esteja em perfeitas condições.",
     name: "Carlos Silva",
     company: "Urban Movers",
     avatar: "CS",
@@ -28,10 +28,10 @@ export function Testimonials() {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-            Trusted by Companies Like Yours
+            Clientes e Parceiros
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Don't just take our word for it. Here's what our clients have to say about their experience.
+            Não confie apenas na nossa palavra. Veja o que nossos clientes têm a dizer sobre sua experiência.
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
