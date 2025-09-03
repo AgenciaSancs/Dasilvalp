@@ -56,7 +56,7 @@ export function AuthorityExperience() {
                 <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase text-center">
                   {item.title}
                 </h3>
-                <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 group relative">
+                <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 group relative border-2 border-transparent hover:border-primary transition-all duration-300">
                     <Image
                       src={item.imageUrl}
                       alt={item.title}
@@ -84,7 +84,7 @@ export function AuthorityExperience() {
                 <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase text-center">
                   LOCALIZAÇÃO ESTRATÉGICA EM PAULÍNIA
                 </h3>
-                <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20">
+                <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 border-2 border-transparent hover:border-primary transition-all duration-300">
                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3099.6292348691813!2d-47.1668848!3d-22.7537775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8950d2c44a30b%3A0xd71ec519160793d5!2sAv.%20Paulista%2C%20306%20-%20Jardim%20Planalto%2C%20Paul%C3%ADnia%20-%20SP%2C%2013145-089!5e1!3m2!1spt-BR!2sbr!4v1756916183409!5m2!1spt-BR!2sbr" width="100%" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </Card>
               </div>
