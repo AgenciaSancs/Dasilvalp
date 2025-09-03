@@ -34,7 +34,7 @@ export function Benefits() {
     <section className="py-20 sm:py-28 bg-background">
       <div className="container">
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="font-headline text-3xl font-bold uppercase tracking-tight text-primary drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)] sm:text-4xl">
              Benefícios que Fazem a Diferença
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
