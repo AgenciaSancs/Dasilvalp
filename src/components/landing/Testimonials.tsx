@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const partnerLogos = [
   { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo', name: 'Aki tem' },
-  { src: 'https://i.postimg.cc/qBskpYN1/Logo-simples-circular-esmaltaria-preto-5.png', alt: 'Partner 2', hint: 'company logo' },
+  { src: 'https://i.postimg.cc/qBskpYN1/Logo-simples-circular-esmaltaria-preto-5.png', alt: 'Partner 2', hint: 'company logo', className: 'transform scale-125' },
   { src: 'https://picsum.photos/150/80?grayscale&random=3', alt: 'Partner 3', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=4', alt: 'Partner 4', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=5', alt: 'Partner 5', hint: 'company logo' },
@@ -29,7 +29,7 @@ export function Testimonials() {
                 alt={logo.alt}
                 width={150}
                 height={80}
-                className="object-contain"
+                className={`object-contain ${logo.className || ''}`}
                 data-ai-hint={logo.hint}
               />
               {logo.name && <p className="mt-2 text-sm font-bold text-gold">{logo.name}</p>}
