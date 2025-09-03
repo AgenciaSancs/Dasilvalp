@@ -60,8 +60,8 @@ export function AuthorityExperience() {
                       src={item.imageUrl}
                       alt={item.title}
                       width={600}
-                      height={450}
-                      className="object-cover w-full h-auto transition-transform duration-300 hover:scale-105"
+                      height={400}
+                      className="object-cover w-full h-auto scale-105"
                       data-ai-hint={item.imageHint}
                     />
                 </Card>
