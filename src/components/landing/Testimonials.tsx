@@ -31,7 +31,7 @@ export function Testimonials() {
             Clientes e Parceiros
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Não confie apenas na nossa palavra. Veja o que nossos clientes têm a dizer sobre sua experiência.
+            Não confie apenas na nossa palavra. Veja um pouco dos nossos clientes
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
