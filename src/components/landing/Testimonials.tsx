@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const partnerLogos = [
-  { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo' },
+  { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo', name: 'Aki tem' },
   { src: 'https://picsum.photos/150/80?grayscale&random=2', alt: 'Partner 2', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=3', alt: 'Partner 3', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=4', alt: 'Partner 4', hint: 'company logo' },
@@ -23,7 +23,7 @@ export function Testimonials() {
         </div>
         <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-center">
           {partnerLogos.map((logo) => (
-            <div key={logo.alt} className="flex justify-center">
+            <div key={logo.alt} className="flex flex-col items-center justify-center text-center">
               <Image
                 src={logo.src}
                 alt={logo.alt}
@@ -32,6 +32,7 @@ export function Testimonials() {
                 className="object-contain"
                 data-ai-hint={logo.hint}
               />
+              {logo.name && <p className="mt-2 text-sm font-bold text-gold">{logo.name}</p>}
             </div>
           ))}
         </div>
