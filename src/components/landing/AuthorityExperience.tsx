@@ -45,7 +45,7 @@ export function AuthorityExperience() {
               className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 even:md:flex-row-reverse"
             >
               <div className="md:w-1/2">
-                <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase">
+                <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase text-center">
                   {item.title}
                 </h3>
                 <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 group relative">
@@ -69,7 +69,7 @@ export function AuthorityExperience() {
               className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 even:md:flex-row-reverse"
             >
               <div className="md:w-1/2">
-                <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase">
+                <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase text-center">
                   LOCALIZAÇÃO ESTRATÉGICA EM PAULÍNIA
                 </h3>
                 <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20">
