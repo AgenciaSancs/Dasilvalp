@@ -55,15 +55,16 @@ export function AuthorityExperience() {
                 <h3 className="font-headline text-2xl font-bold text-gold mb-4 md:text-3xl">
                   {item.title}
                 </h3>
-                <Card className="overflow-hidden rounded-2xl shadow-md">
+                <Card className="overflow-hidden rounded-2xl shadow-md group relative">
                     <Image
                       src={item.imageUrl}
                       alt={item.title}
                       width={600}
                       height={400}
-                      className="object-cover w-full h-auto scale-105"
+                      className="object-cover w-full aspect-[4/3] scale-105"
                       data-ai-hint={item.imageHint}
                     />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
                 </Card>
               </div>
               <div className="md:w-1/2">
