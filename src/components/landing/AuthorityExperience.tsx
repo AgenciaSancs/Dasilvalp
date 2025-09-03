@@ -24,8 +24,8 @@ export function AuthorityExperience() {
     <section className="py-20 sm:py-28 bg-background">
       <div className="container">
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="font-headline text-3xl font-bold uppercase tracking-tight text-primary drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)] sm:text-4xl">
-            Nossa Expertise ao Seu Dispor
+          <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            A <em className="not-italic text-primary">Da Silva Automotivo</em> é referência em manutenção automotiva em Paulínia há mais de uma década.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Confie em quem entende do assunto para cuidar da sua frota.
