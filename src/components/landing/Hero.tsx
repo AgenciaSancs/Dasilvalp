@@ -5,11 +5,11 @@ export function Hero() {
   return (
     <section className="relative w-full h-[70vh] overflow-hidden">
       <Image
-        src="https://i.postimg.cc/cH609Q8P/Gemini-Generated-Image-ifwy1uifwy1uifwy.png"
-        alt="Car being serviced in a garage"
+        src="https://i.postimg.cc/05J8FFCW/REDUZA-EM-40-SEUS-CUSTOS-2.png"
+        alt="Promotional banner for fleet maintenance cost reduction"
         fill
-        className="object-cover opacity-50"
-        data-ai-hint="mechanic workshop"
+        className="object-cover"
+        data-ai-hint="promotional banner"
         priority
       />
       <div className="absolute inset-0 bg-black/50" />
