@@ -29,13 +29,14 @@ export function AuthorityExperience() {
   console.log('[AuthorityExperience]', 'Component rendered');
   return (
     <section 
-      className="relative pt-20 sm:pt-28 pb-16 sm:pb-24"
+      className="relative py-20 sm:py-28"
       style={{
         backgroundImage: "url('https://i.postimg.cc/vBPmmhfT/Gemini-Generated-Image-1twygd1twygd1twy.png')",
         backgroundPosition: 'center',
       }}
     >
       <div className="absolute inset-0 bg-black/70" />
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-primary to-transparent absolute top-0" />
       <div className="container relative">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl uppercase">
