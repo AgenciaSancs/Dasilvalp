@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const partnerLogos = [
-  { src: 'https://picsum.photos/150/80?grayscale&random=1', alt: 'Partner 1', hint: 'company logo' },
+  { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=2', alt: 'Partner 2', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=3', alt: 'Partner 3', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=4', alt: 'Partner 4', hint: 'company logo' },
