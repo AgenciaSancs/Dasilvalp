@@ -6,7 +6,7 @@ const authorityItems = [
     title: 'Oficina própria com equipamentos modernos',
     description:
       'Nossa oficina está equipada com as mais recentes tecnologias para diagnóstico e reparo, garantindo um serviço ágil e de alta precisão para todos os veículos da sua frota.',
-    imageUrl: 'https://picsum.photos/600/400',
+    imageUrl: 'https://i.postimg.cc/7Pd7j8Ds/imagem-2025-09-03-112210245.png',
     imageHint: 'modern workshop',
   },
   {
