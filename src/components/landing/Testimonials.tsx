@@ -18,7 +18,7 @@ export function Testimonials() {
             Clientes e Parceiros
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Aqui esta algumas das empresas que confiam na DA SILVA para a gestão e manutenção de suas frotas.
+            Aqui esta algumas das empresas que confiam na <strong>DA SILVA</strong> para a gestão e manutenção de suas frotas.
           </p>
         </div>
         <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-center">
