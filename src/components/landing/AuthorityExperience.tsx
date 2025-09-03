@@ -45,7 +45,7 @@ export function AuthorityExperience() {
             Nossa equipe altamente qualificada possui expertise específica em gestão de frotas empresariais.
           </p>
         </div>
-        <div className="space-y-16">
+        <div className="space-y-8">
           {authorityItems.map((item, index) => (
             <div
               key={item.title}
@@ -77,7 +77,7 @@ export function AuthorityExperience() {
             </div>
           ))}
             <div
-              className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 even:md:flex-row-reverse"
+              className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 even:md:flex-row-reverse pt-8"
             >
               <div className="md:w-1/2">
                 <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase text-center">
