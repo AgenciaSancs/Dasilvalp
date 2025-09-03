@@ -11,7 +11,7 @@ export function Trust() {
             </div>
             <p className="mt-2 text-xl font-medium">Anos de Experiência</p>
             <p className="mt-1 text-muted-foreground max-w-md">
-              Serving the industry with dedication and unmatched expertise in vehicle maintenance.
+              Servindo a indústria com dedicação e conhecimento incomparável em manutenção de veículos.
             </p>
           </div>
           <div className="flex flex-col items-center">
@@ -20,7 +20,7 @@ export function Trust() {
             </div>
             <p className="mt-2 text-xl font-medium">Clientes Satisfeitos</p>
             <p className="mt-1 text-muted-foreground max-w-md">
-              Our team consists of highly skilled and certified professionals committed to quality.
+              Nossa equipe é formada por profissionais altamente qualificados e certificados, comprometidos com a qualidade.
             </p>
           </div>
         </div>
