@@ -13,21 +13,21 @@ const authorityItems = [
     title: 'Técnicos certificados e especializados',
     description:
       'Contamos com uma equipe de profissionais com vasta experiência e certificações nas principais montadoras, prontos para oferecer as melhores soluções em manutenção preventiva e corretiva.',
-    imageUrl: 'https://picsum.photos/600/400',
+    imageUrl: 'https://picsum.photos/600/450',
     imageHint: 'certified mechanics',
   },
   {
     title: 'Atendimento personalizado para cada empresa',
     description:
       'Entendemos que cada frota é única. Por isso, oferecemos um plano de manutenção totalmente personalizado, focado nas necessidades específicas do seu negócio para maximizar a eficiência e reduzir custos.',
-    imageUrl: 'https://picsum.photos/600/400',
+    imageUrl: 'https://picsum.photos/600/450',
     imageHint: 'business meeting',
   },
   {
     title: 'Localização estratégica em Paulínia',
     description:
       'Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.',
-    imageUrl: 'https://picsum.photos/600/400',
+    imageUrl: 'https://picsum.photos/600/450',
     imageHint: 'city map',
   },
 ];
@@ -60,7 +60,7 @@ export function AuthorityExperience() {
                       src={item.imageUrl}
                       alt={item.title}
                       width={600}
-                      height={400}
+                      height={450}
                       className="object-cover w-full h-auto transition-transform duration-300 hover:scale-105"
                       data-ai-hint={item.imageHint}
                     />
