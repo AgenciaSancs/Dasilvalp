@@ -62,7 +62,7 @@ export function AuthorityExperience() {
                       alt={item.title}
                       width={600}
                       height={400}
-                      className="object-cover w-full aspect-[4/3.5] scale-105"
+                      className="object-cover w-full aspect-[4/3.5] group-hover:scale-105 transition-transform duration-300"
                       data-ai-hint={item.imageHint}
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
