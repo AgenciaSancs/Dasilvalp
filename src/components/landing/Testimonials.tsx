@@ -3,7 +3,7 @@ import Image from 'next/image';
 const partnerLogos = [
   { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo', name: 'Aki tem' },
   { src: 'https://i.postimg.cc/qBskpYN1/Logo-simples-circular-esmaltaria-preto-5.png', alt: 'Partner 2', hint: 'company logo', className: 'transform scale-125', nameJsx: <p className="mt-2 text-sm font-bold"><span className="text-blue-500">TP</span> <span className="text-primary">CONS</span></p> },
-  { src: 'https://picsum.photos/150/80?grayscale&random=3', alt: 'Partner 3', hint: 'company logo' },
+  { src: 'https://i.postimg.cc/d3cw2M0S/Logo-simples-circular-esmaltaria-preto-6.png', alt: 'Partner 3', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=4', alt: 'Partner 4', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=5', alt: 'Partner 5', hint: 'company logo' },
   { src: 'https://picsum.photos/150/80?grayscale&random=6', alt: 'Partner 6', hint: 'company logo' },
