@@ -18,7 +18,7 @@ export function Header() {
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <WhatsAppButton className="text-xs sm:text-sm" />
+          <WhatsAppButton size="sm" className="text-xs" />
         </div>
       </div>
     </header>
