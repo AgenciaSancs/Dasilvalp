@@ -10,7 +10,7 @@ const checklistItems = [
 
 export function Urgency() {
   return (
-    <section className="w-full bg-background py-16 sm:py-20">
+    <section className="w-full bg-background">
       <div className="relative">
         <div className="relative inline-block w-full">
           <Image
@@ -27,8 +27,8 @@ export function Urgency() {
                 <ul className="space-y-2 text-left inline-block">
                 {checklistItems.map((item, index) => (
                     <li key={index} className="flex items-center">
-                    <Check className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
-                    <span className="text-sm sm:text-base text-foreground">{item}</span>
+                    <Check className="h-4 w-4 sm:h-5 sm:w-5 text-primary mr-2 flex-shrink-0" />
+                    <span className="text-sm sm:text-lg text-foreground">{item}</span>
                     </li>
                 ))}
                 </ul>
