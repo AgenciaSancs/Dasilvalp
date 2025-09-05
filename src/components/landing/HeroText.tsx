@@ -9,7 +9,7 @@ export function HeroText() {
             Manutenção preventiva especializada que evita paradas inesperadas e aumenta a vida útil dos seus veículos. Menos gastos, mais produtividade.
           </p>
           <div className="mt-10">
-            <WhatsAppButton size="lg" className="text-base sm:text-lg">
+            <WhatsAppButton size="lg" className="h-10 px-6 text-sm sm:h-12 sm:px-8 sm:text-base">
               Solicite sua proposta
             </WhatsAppButton>
           </div>
