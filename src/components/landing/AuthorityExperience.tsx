@@ -97,7 +97,7 @@ export function AuthorityExperience() {
                     <p className="text-base sm:text-lg text-neutral-100">Nossa localização privilegiada em Paulínia facilita a logística para sua empresa, permitindo que seus veículos cheguem até nós rapidamente, otimizando o tempo de manutenção.</p>
                   </CardContent>
                 </Card>
-                <div className="hidden md:flex justify-center items-center mt-4 space-x-4">
+                <div className="flex justify-center items-center mt-4 space-x-4">
                   <a href="https://ul.waze.com/ul?ll=-22.75348681%2C-47.16750383&navigate=yes&zoom=16&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" rel="noopener noreferrer">
                     <Image 
                       src="https://i.postimg.cc/XNy68ds5/waze.png"
