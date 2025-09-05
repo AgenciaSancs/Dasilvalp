@@ -10,30 +10,27 @@ const checklistItems = [
 
 export function Urgency() {
   return (
-    <section className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden">
-      <div className="absolute inset-0">
+    <section className="relative w-full">
+      <div className="relative">
         <Image
           src="https://i.postimg.cc/ZRnn8Cpf/arte-1.png"
           alt="Promotional banner for fleet maintenance"
-          fill
-          className="object-cover object-center"
+          width={1920}
+          height={1080}
+          className="w-full h-auto"
           data-ai-hint="promotional banner"
         />
-      </div>
-      <div className="absolute inset-0" />
-      <div className="container relative z-10">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="font-headline text-3xl sm:text-4xl font-bold uppercase text-primary drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)] mb-8">
-            Não espere sua frota parar.
-          </h2>
-          <ul className="space-y-4 text-left max-w-md mx-auto">
-            {checklistItems.map((item, index) => (
-              <li key={index} className="flex items-start">
-                <Check className="h-6 w-6 text-primary mr-3 flex-shrink-0" />
-                <span className="text-base sm:text-lg text-neutral-100">{item}</span>
-              </li>
-            ))}
-          </ul>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="max-w-2xl mx-auto">
+            <ul className="space-y-2 text-left">
+              {checklistItems.map((item, index) => (
+                <li key={index} className="flex items-center">
+                  <Check className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
+                  <span className="text-sm sm:text-base text-neutral-100">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>
