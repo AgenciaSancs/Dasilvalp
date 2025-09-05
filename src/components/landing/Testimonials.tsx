@@ -16,7 +16,7 @@ export function Testimonials() {
     <section className="py-20 sm:py-28 bg-background">
       <div className="container">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl uppercase text-primary">
+          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl uppercase text-primary drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)]">
             Clientes e Parceiros
           </h2>
           <p className="mt-4 text-base sm:text-lg text-muted-foreground">
