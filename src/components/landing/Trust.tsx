@@ -29,7 +29,7 @@ export function Trust() {
             </div>
             <p className="mt-2 text-lg sm:text-xl font-headline uppercase">Redução nos Custos de Manutenção</p>
             <p className="mt-1 text-sm sm:text-base text-muted-foreground max-w-md">
-              Com nossa gestão inteligente e processos otimizados, ajudamos empresas a economizar significativamente no cuidado de suas frotas.
+              Com nossa gestão inteligente e processos otimizados, ajudamos empresas a economizar.
             </p>
           </div>
         </div>
