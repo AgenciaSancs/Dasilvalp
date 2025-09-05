@@ -13,7 +13,7 @@ export function HeroText() {
                 <div className="aspect-square w-full">
                 <iframe 
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/xVtqNzqLfi0" 
+                    src="https://www.youtube.com/embed/1iSrc-WPz7I" 
                     title="YouTube video player" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
