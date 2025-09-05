@@ -32,13 +32,13 @@ export default function Home() {
           <Trust />
         </FadeInOnScroll>
         <FadeInOnScroll>
-          <Testimonials />
-        </FadeInOnScroll>
-        <FadeInOnScroll>
           <Faq />
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Urgency />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Testimonials />
         </FadeInOnScroll>
       </main>
       <Footer />
