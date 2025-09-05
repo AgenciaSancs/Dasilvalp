@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
+import Link from 'next/link';
 
 const authorityItems = [
   {
@@ -84,9 +85,11 @@ export function AuthorityExperience() {
                 <h3 className="font-headline text-xl font-bold text-primary mb-4 md:text-2xl uppercase text-center">
                   LOCALIZAÇÃO ESTRATÉGICA EM PAULÍNIA
                 </h3>
-                <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 border-2 border-primary transition-all duration-300">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3099.6292348691813!2d-47.1668848!3d-22.7537775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8950d2c44a30b%3A0xd71ec519160793d5!2sAv.%20Paulista%2C%20306%20-%20Jardim%20Planalto%2C%20Paul%C3%ADnia%20-%20SP%2C%2013145-089!5e1!3m2!1spt-BR!2sbr!4v1756916183409!5m2!1spt-BR!2sbr" width="100%" height="350" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                </Card>
+                <Link href="https://www.google.com/maps/place/Da+Silva+Centro+Automotivo+%7C+Oficina+Mec%C3%A2nica+em+Paul%C3%ADnia/@-22.7559378,-47.1698416,16z/data=!4m6!3m5!1s0x94c895efeb2afddb:0x7a2bd7c8683a25aa!8m2!3d-22.7534027!4d-47.1674957!16s%2Fg%2F11mvrpyh__?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                  <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 border-2 border-primary transition-all duration-300">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3099.6292348691813!2d-47.1668848!3d-22.7537775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8950d2c44a30b%3A0xd71ec519160793d5!2sAv.%20Paulista%2C%20306%20-%20Jardim%20Planalto%2C%20Paul%C3%ADnia%20-%20SP%2C%2013145-089!5e1!3m2!1spt-BR!2sbr!4v1756916183409!5m2!1spt-BR!2sbr" width="100%" height="350" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="pointer-events-none"></iframe>
+                  </Card>
+                </Link>
               </div>
               <div className="md:w-1/2">
                 <Card className="bg-black/20 backdrop-filter backdrop-blur-sm border-primary/20 shadow-lg rounded-2xl">
@@ -104,7 +107,7 @@ export function AuthorityExperience() {
                       className="object-contain"
                     />
                   </a>
-                  <a href="https://www.google.com/maps/search/?api=1&query=Av.+Paulista,+306+-+Jardim+Planalto,+Paul%C3%ADnia+-+SP,+13145-089" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.google.com/maps/place/Da+Silva+Centro+Automotivo+%7C+Oficina+Mec%C3%A2nica+em+Paul%C3%ADnia/@-22.7559378,-47.1698416,16z/data=!4m6!3m5!1s0x94c895efeb2afddb:0x7a2bd7c8683a25aa!8m2!3d-22.7534027!4d-47.1674957!16s%2Fg%2F11mvrpyh__?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
                     <Image 
                       src="https://i.postimg.cc/N01rm5Wv/maps.png"
                       alt="Abrir no Google Maps"
