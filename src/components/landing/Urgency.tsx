@@ -19,7 +19,6 @@ export function Urgency() {
           className="object-cover object-center"
           data-ai-hint="promotional banner"
         />
-        <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="container relative z-10">
         <div className="max-w-3xl mx-auto">
