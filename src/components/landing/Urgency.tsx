@@ -20,6 +20,7 @@ export function Urgency() {
           data-ai-hint="promotional banner"
         />
       </div>
+      <div className="absolute inset-0" />
       <div className="container relative z-10">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-headline text-3xl sm:text-4xl font-bold uppercase text-primary drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)] mb-8">
