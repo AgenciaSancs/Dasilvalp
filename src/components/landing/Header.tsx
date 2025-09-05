@@ -1,6 +1,8 @@
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 import Image from "next/image";
 import Link from "next/link";
+import { Instagram } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function Header() {
   return (
@@ -18,8 +20,15 @@ export function Header() {
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
+          <Button asChild variant="ghost" size="icon">
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <Instagram className="h-5 w-5" />
+              <span className="sr-only">Instagram</span>
+            </Link>
+          </Button>
           <WhatsAppButton size="sm" className="text-xs">
             <span className="hidden sm:inline">Fale com um especialista</span>
+            <span className="sm:hidden">WhatsApp</span>
           </WhatsAppButton>
         </div>
       </div>
