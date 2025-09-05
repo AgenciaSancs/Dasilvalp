@@ -28,7 +28,7 @@ export function Header() {
           </Button>
           <WhatsAppButton size="sm" className="text-xs">
             <span className="hidden sm:inline">Fale com um especialista</span>
-            <span className="sm:hidden">WhatsApp</span>
+            <span className="sm:hidden">Agendar agora</span>
           </WhatsAppButton>
         </div>
       </div>
