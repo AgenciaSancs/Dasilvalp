@@ -2,9 +2,7 @@ import { Button, type ButtonProps } from "@/components/ui/button";
 import { WhatsAppIcon } from "@/components/icons/whatsapp";
 
 export function WhatsAppButton({ children, ...props }: React.PropsWithChildren<ButtonProps>) {
-  const phoneNumber = "5511987654321"; // Placeholder phone number
-  const message = "Olá! Gostaria de saber mais sobre os serviços da FleetValue.";
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = "https://api.whatsapp.com/send/?phone=5519971300486&text&type=phone_number&app_absent=0";
 
   return (
     <Button asChild {...props}>
