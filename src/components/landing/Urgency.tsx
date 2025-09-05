@@ -13,14 +13,28 @@ export function Urgency() {
     <section className="w-full bg-background py-10">
       <div className="relative">
         <div className="relative inline-block w-full">
-          <Image
-            src="https://i.postimg.cc/ZRnn8Cpf/arte-1.png"
-            alt="Promotional banner for fleet maintenance"
-            width={1920}
-            height={781}
-            className="w-full h-auto"
-            data-ai-hint="promotional banner"
-          />
+          {/* Desktop Banner */}
+          <div className="hidden md:block">
+            <Image
+              src="https://i.postimg.cc/ZRnn8Cpf/arte-1.png"
+              alt="Promotional banner for fleet maintenance"
+              width={1920}
+              height={781}
+              className="w-full h-auto"
+              data-ai-hint="promotional banner"
+            />
+          </div>
+           {/* Mobile Banner */}
+          <div className="block md:hidden">
+            <Image
+              src="https://i.postimg.cc/Bv2YsB6F/arte-2.png"
+              alt="Promotional banner for fleet maintenance - Mobile"
+              width={750}
+              height={1334}
+              className="w-full h-auto"
+              data-ai-hint="promotional banner"
+            />
+          </div>
         </div>
         <div className="container">
             <div className="mt-8 max-w-3xl mx-auto text-center">
