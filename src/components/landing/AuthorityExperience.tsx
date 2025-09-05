@@ -98,7 +98,7 @@ export function AuthorityExperience() {
                   </CardContent>
                 </Card>
                 <div className="hidden md:flex justify-center items-center mt-4 space-x-4">
-                  <a href="https://www.waze.com/ul?ll=-22.75377750%2C-47.16688480&navigate=yes" target="_blank" rel="noopener noreferrer">
+                  <a href="https://ul.waze.com/ul?ll=-22.75348681%2C-47.16750383&navigate=yes&zoom=16&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" rel="noopener noreferrer">
                     <Image 
                       src="https://i.postimg.cc/XNy68ds5/waze.png"
                       alt="Abrir no Waze"
