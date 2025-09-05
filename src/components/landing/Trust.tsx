@@ -6,7 +6,7 @@ export function Trust() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-x-8 text-center">
           <div className="flex flex-col items-center">
-            <div className="font-headline text-5xl sm:text-6xl font-bold text-gold flex items-center">
+            <div className="font-headline text-5xl sm:text-6xl font-bold text-primary flex items-center drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)]">
               <AnimatedNumber finalValue={5} />+
             </div>
             <p className="mt-2 text-lg sm:text-xl font-headline uppercase">Anos de Experiência</p>
@@ -15,7 +15,7 @@ export function Trust() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="font-headline text-5xl sm:text-6xl font-bold text-gold flex items-center">
+            <div className="font-headline text-5xl sm:text-6xl font-bold text-primary flex items-center drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)]">
               +<AnimatedNumber finalValue={1000} />
             </div>
             <p className="mt-2 text-lg sm:text-xl font-headline uppercase">Clientes Satisfeitos</p>
@@ -24,7 +24,7 @@ export function Trust() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="font-headline text-5xl sm:text-6xl font-bold text-gold flex items-center">
+            <div className="font-headline text-5xl sm:text-6xl font-bold text-primary flex items-center drop-shadow-[0_2px_4px_rgba(249,115,22,0.5)]">
               +<AnimatedNumber finalValue={30} suffix="%" />
             </div>
             <p className="mt-2 text-lg sm:text-xl font-headline uppercase">Redução nos Custos de Manutenção</p>
