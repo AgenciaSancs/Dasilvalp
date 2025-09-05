@@ -21,7 +21,7 @@ export function Header() {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild variant="ghost" size="icon">
-            <Link href="https://www.instagram.com/p/DA9HGOhy6tq/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.instagram.com/dasilvaautomotivo/" target="_blank" rel="noopener noreferrer">
               <Instagram className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </Link>
