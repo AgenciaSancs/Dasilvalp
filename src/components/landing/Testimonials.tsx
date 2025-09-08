@@ -1,5 +1,4 @@
 
-import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 const partnerLogos = [
@@ -36,7 +35,7 @@ export function Testimonials() {
                 key={index}
                 className="flex-shrink-0"
               >
-                <Image
+                <img
                   src={logo.src}
                   alt={logo.alt}
                   width={160} // Corresponds to w-40

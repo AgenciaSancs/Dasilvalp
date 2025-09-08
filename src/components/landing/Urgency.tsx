@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Check } from "lucide-react";
 
 const checklistItems = [
@@ -15,7 +15,7 @@ export function Urgency() {
         <div className="relative inline-block w-full">
           {/* Desktop Banner */}
           <div className="hidden md:block">
-            <Image
+            <img
               src="https://i.postimg.cc/ZRnn8Cpf/arte-1.png"
               alt="Promotional banner for fleet maintenance"
               width={1920}
@@ -26,7 +26,7 @@ export function Urgency() {
           </div>
            {/* Mobile Banner */}
           <div className="block md:hidden">
-            <Image
+            <img
               src="https://i.postimg.cc/Bv2YsB6F/arte-2.png"
               alt="Promotional banner for fleet maintenance - Mobile"
               width={750}
