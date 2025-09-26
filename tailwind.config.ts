@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Futura', 'sans-serif'],
-        headline: ['Oswald', 'sans-serif'],
+        body: ['var(--font-futura)', 'sans-serif'],
+        headline: ['var(--font-oswald)', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
