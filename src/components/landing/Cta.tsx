@@ -8,11 +8,11 @@ export function Cta() {
           MANTENHA SUA FROTA SEMPRE ECONÔMICA
         </h2>
         <p className="mt-4 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-          Não espere mais. Fale com um de nossos especialistas e descubra como nosso plano de gestão de frotas pode transformar o seu negócio.
+          Não espere mais. Fale com um de nossos especialistas e faça um orçamento 
         </p>
         <div className="mt-10">
           <WhatsAppButton size="lg" className="h-12 px-8 text-base">
-            Quero uma Proposta
+            Falar com especialista
           </WhatsAppButton>
         </div>
       </div>
