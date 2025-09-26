@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'FleetValue Landing',
-  description: 'Optimize your fleet maintenance with FleetValue.',
+  title: 'Da Silva Automotivo',
+  description: 'Reduza em 40% os custos da sua frota',
 };
 
 export default function RootLayout({

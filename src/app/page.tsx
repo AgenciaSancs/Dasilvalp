@@ -8,6 +8,7 @@ import { Trust } from "@/components/landing/Trust";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { Faq } from "@/components/landing/Faq";
 import { Urgency } from "@/components/landing/Urgency";
+import { Cta } from "@/components/landing/Cta";
 import { Footer } from "@/components/landing/Footer";
 import { FadeInOnScroll } from "@/components/ui/fade-in";
 export default function Home() {
@@ -33,6 +34,9 @@ export default function Home() {
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Urgency />
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <Cta />
         </FadeInOnScroll>
         <FadeInOnScroll>
           <Testimonials />
