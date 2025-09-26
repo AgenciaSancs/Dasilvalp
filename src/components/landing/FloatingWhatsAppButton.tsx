@@ -6,7 +6,7 @@ export function FloatingWhatsAppButton() {
   return (
     <Button
       asChild
-      className="fixed bottom-6 right-6 z-50 h-20 w-20 rounded-full shadow-lg transition-transform hover:scale-110 flex items-center justify-center bg-transparent hover:bg-transparent"
+      className="fixed bottom-6 right-6 z-50 h-20 w-20 rounded-full shadow-lg flex items-center justify-center bg-transparent hover:bg-transparent"
       size="icon"
       aria-label="Fale conosco pelo WhatsApp"
     >
