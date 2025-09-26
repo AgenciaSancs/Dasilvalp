@@ -17,8 +17,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['var(--font-futura)', 'sans-serif'],
-        headline: ['var(--font-oswald)', 'sans-serif'],
+        sans: ["var(--font-sans)"],
+        mono: ["var(--font-mono)"],
+        body: ['var(--font-sans)', 'sans-serif'],
+        headline: ['var(--font-mono)', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
