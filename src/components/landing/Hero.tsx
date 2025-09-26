@@ -1,3 +1,4 @@
+import { cdn } from "@/lib/cdn";
 
 export function Hero() {
   return (
@@ -5,7 +6,7 @@ export function Hero() {
       {/* Desktop Banner */}
       <div className="hidden md:block">
         <img
-          src="https://i.postimg.cc/T20Zd0Nn/capa-dasilva.png"
+          src={cdn("https://i.postimg.cc/T20Zd0Nn/capa-dasilva.png")}
           alt="Promotional banner for fleet maintenance cost reduction - Desktop"
           width={1920}
           height={781}
@@ -16,7 +17,7 @@ export function Hero() {
       {/* Mobile Banner */}
       <div className="block md:hidden">
         <img
-          src="https://i.postimg.cc/pXYYbc0t/capa-cell-dasilva.png"
+          src={cdn("https://i.postimg.cc/pXYYbc0t/capa-cell-dasilva.png")}
           alt="Promotional banner for fleet maintenance cost reduction - Mobile"
           width={750}
           height={1334}

@@ -9,7 +9,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preexport": "node scripts/fetch-images.mjs",
+    "static": "npm run preexport && next export"
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.14.1",

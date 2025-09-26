@@ -1,6 +1,6 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
+import { cdn } from '@/lib/cdn';
 
 const authorityItems = [
   {
@@ -32,7 +32,7 @@ export function AuthorityExperience() {
     <section 
       className="relative py-20 sm:py-28"
       style={{
-        backgroundImage: "url('https://i.postimg.cc/vBPmmhfT/Gemini-Generated-Image-1twygd1twygd1twy.png')",
+        backgroundImage: `url(${cdn('https://i.postimg.cc/vBPmmhfT/Gemini-Generated-Image-1twygd1twygd1twy.png')})`,
         backgroundPosition: 'center',
       }}
     >
@@ -59,7 +59,7 @@ export function AuthorityExperience() {
                 </h3>
                 <Card className="overflow-hidden rounded-2xl shadow-lg shadow-black/20 group relative border-2 border-primary transition-all duration-300">
                     <img
-                      src={item.imageUrl}
+                      src={cdn(item.imageUrl)}
                       alt={item.title}
                       width={600}
                       height={400}
@@ -100,7 +100,7 @@ export function AuthorityExperience() {
                 <div className="flex justify-center items-center mt-4 space-x-4">
                   <a href="https://ul.waze.com/ul?ll=-22.75348681%2C-47.16750383&navigate=yes&zoom=16&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" rel="noopener noreferrer">
                     <img 
-                      src="https://i.postimg.cc/XNy68ds5/waze.png"
+                      src={cdn("https://i.postimg.cc/XNy68ds5/waze.png")}
                       alt="Abrir no Waze"
                       width={60}
                       height={22}
@@ -109,7 +109,7 @@ export function AuthorityExperience() {
                   </a>
                   <a href="https://www.google.com/maps/place/Da+Silva+Centro+Automotivo+%7C+Oficina+Mec%C3%A2nica+em+Paul%C3%ADnia/@-22.7559378,-47.1698416,16z/data=!4m6!3m5!1s0x94c895efeb2afddb:0x7a2bd7c8683a25aa!8m2!3d-22.7534027!4d-47.1674957!16s%2Fg%2F11mvrpyh__?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
                     <img
-                      src="https://i.postimg.cc/N01rm5Wv/maps.png"
+                      src={cdn("https://i.postimg.cc/N01rm5Wv/maps.png")}
                       alt="Abrir no Google Maps"
                       width={60}
                       height={22}

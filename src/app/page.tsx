@@ -10,8 +10,6 @@ import { Faq } from "@/components/landing/Faq";
 import { Urgency } from "@/components/landing/Urgency";
 import { Footer } from "@/components/landing/Footer";
 import { FadeInOnScroll } from "@/components/ui/fade-in";
-import { Testimonials } from "@/components/landing/Testimonials";
-
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">

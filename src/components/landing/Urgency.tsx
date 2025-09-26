@@ -1,5 +1,5 @@
-
 import { Check } from "lucide-react";
+import { cdn } from "@/lib/cdn";
 
 const checklistItems = [
   "Evita gastos emergenciais desnecessários",
@@ -16,7 +16,7 @@ export function Urgency() {
           {/* Desktop Banner */}
           <div className="hidden md:block">
             <img
-              src="https://i.postimg.cc/ZRnn8Cpf/arte-1.png"
+              src={cdn("https://i.postimg.cc/ZRnn8Cpf/arte-1.png")}
               alt="Promotional banner for fleet maintenance"
               width={1920}
               height={781}
@@ -27,7 +27,7 @@ export function Urgency() {
            {/* Mobile Banner */}
           <div className="block md:hidden">
             <img
-              src="https://i.postimg.cc/Bv2YsB6F/arte-2.png"
+              src={cdn("https://i.postimg.cc/Bv2YsB6F/arte-2.png")}
               alt="Promotional banner for fleet maintenance - Mobile"
               width={750}
               height={1334}

@@ -2,6 +2,7 @@ import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 import Link from "next/link";
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { cdn } from "@/lib/cdn";
 
 export function Header() {
   return (
@@ -10,7 +11,7 @@ export function Header() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <img 
-              src="https://i.postimg.cc/9fvdxBDn/Logo-simples-circular-esmaltaria-preto-1.png"
+              src={cdn("https://i.postimg.cc/9fvdxBDn/Logo-simples-circular-esmaltaria-preto-1.png")}
               alt="Da Silva Automotivo Logo"
               width={120}
               height={34}

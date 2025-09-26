@@ -1,5 +1,5 @@
-
 import { cn } from '@/lib/utils';
+import { cdn } from '@/lib/cdn';
 
 const partnerLogos = [
   { src: 'https://i.postimg.cc/J0JR969B/Logo-simples-circular-esmaltaria-preto-3.png', alt: 'Partner 1', hint: 'company logo' },
@@ -36,7 +36,7 @@ export function Testimonials() {
                 className="flex-shrink-0"
               >
                 <img
-                  src={logo.src}
+                  src={cdn(logo.src)}
                   alt={logo.alt}
                   width={160} // Corresponds to w-40
                   height={80}
